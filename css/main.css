@@ -5,7 +5,7 @@ body{
 }
 
 .my-image{
-    
+    padding: 10px;
 }
 .left-bar{
     background-color: #006e9e;
@@ -14,7 +14,7 @@ body{
     font-family: arial,serif;
 }
 .left-bar h2{
-    font-size: 40px;
+    font-size: 38px;
 }
 .left{
      margin-top: 30px;
@@ -24,7 +24,7 @@ body{
     font-size: 20px;
 }
 .contact-text{
-    font-size: 25px;
+    font-size: 18px;
 }
 .contact{
  
@@ -42,12 +42,12 @@ body{
     margin: 40px 0px;
 }
 .hobies{
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     font-size: 40px;
 }
 .icon-image{
-    height: 67px;
-    font-size: 50px;
+    height: 50px;
+    font-size: 40px;
 }
 .space{
    padding-top: 20px;
@@ -68,13 +68,14 @@ body{
     margin-bottom: 60px;
 }
 .username h1{
-    font-size: 60px;
+    font-size: 45px;
     /* position: relative; */
 }
-.username > h2{
+.username > h4{
     color: #000;
     position: absolute;
-    top: 106px;
+    top: 105px;
+    left: 45px;
 }
 .personal-profile h2{
     background: #006e9e;
@@ -89,20 +90,19 @@ body{
 }
 .text{
     padding: 5px 15px 5px 38px;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: normal;
     font-family: arial,helvetica, sans-serif;
-    line-height: 30px;
+    line-height: 25px;
     color: #000;
-    
 }
 .text strong{
-    font-size: 25px;
+    font-size: 18px;
     color: #000000;
 }
 .text h4{
-    font-size: 20px;
+    font-size: 16px;
     color: #006e9e;
     /*font-style: italic;*/
 }
@@ -119,8 +119,8 @@ body{
     color: #fff;
 }
 .end{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .left-end{
-    margin-bottom: 80px;
+    margin-bottom: 55px;
 }
