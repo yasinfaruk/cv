@@ -1,5 +1,5 @@
 body{
-    min-height: 1500px;
+    /*min-height: 1500px;*/
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body{
     
 }
 .left-bar{
-    background-color: darkorange;
+    background-color: #006e9e;
     min-height: 700px;
     color: #fff;
     font-family: arial,serif;
@@ -19,6 +19,13 @@ body{
 .left{
      margin-top: 30px;
 }
+.text-left{
+    font-family: arial, serif;
+    font-size: 20px;
+}
+.contact-text{
+    font-size: 25px;
+}
 .contact{
  
     color: #fff;
@@ -28,6 +35,8 @@ body{
 }
 .language-progress{
     height: 5px;
+    position: relative;
+    top: -8px;
 }
 .skills{
     margin: 40px 0px;
@@ -41,21 +50,38 @@ body{
     font-size: 50px;
 }
 .space{
-   padding-top: 40px;
+   padding-top: 20px;
 }
+.progress{
+    margin-bottom: -3px;
+}
+.progress-space{
+    margin: 5px 0px;
+}
+
 
 /*======================= RIGHT SIDE =====================*/
 .username{
     margin-left: 35px;
-    color: orange;
+    color: #006e9e;
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+}
+.username h1{
+    font-size: 60px;
+    /* position: relative; */
+}
+.username > h2{
+    color: #000;
+    position: absolute;
+    top: 106px;
 }
 .personal-profile h2{
-    background: orange;
+    background: #006e9e;
     display: inline-block;
     margin-left: 0 !important;
     padding: 5px 15px 5px 38px;
+   
 }
 .nopadding {
    padding: 0 !important;
@@ -63,17 +89,35 @@ body{
 }
 .text{
     padding: 5px 15px 5px 38px;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
     font-weight: normal;
-    font-family: arial,sans;
+    font-family: arial,helvetica, sans-serif;
+    line-height: 30px;
+    color: #000;
+    
+}
+.text strong{
+    font-size: 25px;
+    color: #000000;
+}
+.text h4{
+    font-size: 20px;
+    color: #006e9e;
+    /*font-style: italic;*/
 }
 .right-icon-image{
     font-size: 80px;
-   color: orange;
+   color: #006e9e;
    text-align: center;
    margin-left: 50px;
    float: right;
    margin-right: 90px;
     
+}
+.personal-profile h2{
+    color: #fff;
+}
+.end{
+    margin-bottom: 50px;
 }
