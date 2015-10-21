@@ -1,0 +1,79 @@
+body{
+    min-height: 1500px;
+    margin: 0;
+    padding: 0;
+}
+
+.my-image{
+    
+}
+.left-bar{
+    background-color: darkorange;
+    min-height: 700px;
+    color: #fff;
+    font-family: arial,serif;
+}
+.left-bar h2{
+    font-size: 40px;
+}
+.left{
+     margin-top: 30px;
+}
+.contact{
+ 
+    color: #fff;
+}
+.language{
+    line-height: -2px;
+}
+.language-progress{
+    height: 5px;
+}
+.skills{
+    margin: 40px 0px;
+}
+.hobies{
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.icon-image{
+    height: 67px;
+    font-size: 50px;
+}
+.space{
+   padding-top: 40px;
+}
+
+/*======================= RIGHT SIDE =====================*/
+.username{
+    margin-left: 35px;
+    color: orange;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.personal-profile h2{
+    background: orange;
+    display: inline-block;
+    margin-left: 0 !important;
+    padding: 5px 15px 5px 38px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.text{
+    padding: 5px 15px 5px 38px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-family: arial,sans;
+}
+.right-icon-image{
+    font-size: 80px;
+   color: orange;
+   text-align: center;
+   margin-left: 50px;
+   float: right;
+   margin-right: 90px;
+    
+}
