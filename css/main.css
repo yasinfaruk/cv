@@ -6,6 +6,7 @@ body{
 
 .my-image{
     padding: 10px;
+    /*margin-top: 20px;*/
 }
 .left-bar{
     background-color: #006e9e;
@@ -14,17 +15,17 @@ body{
     font-family: arial,serif;
 }
 .left-bar h2{
-    font-size: 38px;
+    font-size: 25px;
 }
 .left{
      margin-top: 30px;
 }
 .text-left{
     font-family: arial, serif;
-    font-size: 20px;
+    font-size: 14px;
 }
 .contact-text{
-    font-size: 18px;
+    font-size: 16px;
 }
 .contact{
  
@@ -68,20 +69,21 @@ body{
     margin-bottom: 60px;
 }
 .username h1{
-    font-size: 45px;
+    font-size: 35px;
     /* position: relative; */
 }
 .username > h4{
     color: #000;
     position: absolute;
-    top: 105px;
-    left: 45px;
+    top: 95px;
+    left: 40px;
 }
 .personal-profile h2{
     background: #006e9e;
     display: inline-block;
     margin-left: 0 !important;
     padding: 5px 15px 5px 38px;
+    font-size: 20px;
    
 }
 .nopadding {
@@ -89,12 +91,22 @@ body{
    margin: 0 !important;
 }
 .text{
-    padding: 5px 15px 5px 38px;
-    font-size: 16px;
+    padding: 0px 15px 1px 38px;
+    font-size: 14px;
     letter-spacing: 1px;
     font-weight: normal;
     font-family: arial,helvetica, sans-serif;
-    line-height: 25px;
+    line-height: 20px;
+    color: #000;
+}
+.text-two{
+    font-size: 12px;
+    padding: 0px 15px 1px 38px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-family: arial,helvetica, sans-serif;
+    line-height: 20px;
     color: #000;
 }
 .text strong{
@@ -102,12 +114,12 @@ body{
     color: #000000;
 }
 .text h4{
-    font-size: 16px;
+    font-size: 15px;
     color: #006e9e;
     /*font-style: italic;*/
 }
 .right-icon-image{
-    font-size: 80px;
+    font-size: 65px;
    color: #006e9e;
    text-align: center;
    margin-left: 50px;
